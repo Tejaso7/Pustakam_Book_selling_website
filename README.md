@@ -61,29 +61,32 @@ To run this project locally, follow these steps:
 1. Clone the repository to your local machine:
 
    ```bash
-   git clone https://github.com/your-username/book-selling-website.git
+   git clone https://github.com/Tejaso7/book-selling-website.git
 Install the required dependencies:
 
-bash
-Copy code
-cd book-selling-website
-npm install
+2.
+   ```bash
+   cd book-selling-website
+3.
+   ```bash
+   npm install
+
 Configure the database settings and environment variables as needed. You may use a local database or a cloud-based solution.
 
 Start the development server:
 
-bash
-Copy code
-npm start
+4.
+   ```bash
+   npm start
 Open your web browser and visit http://localhost:3000 to access the website.
 
-Technologies Used
-HTML5, CSS3, JavaScript
-Node.js and Express.js for the server
-MongoDB or your preferred database
-Payment gateway integration (e.g., Stripe)
-Frontend framework (e.g., React, Angular, or Vue.js)
-Contributing
+5.Technologies Used
+   HTML5, CSS3, JavaScript
+   Node.js and Express.js for the server   
+   MongoDB or your preferred database
+   Payment gateway integration (e.g., Stripe)
+   Frontend framework (e.g., React, Angular, or Vue.js)
+   Contributing
 We welcome contributions from the community! If you would like to contribute to the project, please follow these guidelines:
 
 Fork the repository and create a new branch for your feature or bug fix.
