@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+<style>
+   {% load static %}
+   body ,ts {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-image: url({% static 'background2.jpg' %});
+            background-size: cover; /* Optional: Adjust to your preferred background size */
+            background-repeat: no-repeat; /* Optional: Prevent image repetition */
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+        nav {
+         background-color:#C0C0C0;
+         }
+
+        h1 {
+            color: black;
+        }
+
+        p {
+            font-size: 16px;
+            line-height: 1.4;
+            margin-bottom: 20px;
+        }
+          a {
+            color: #0077cc;
+            text-decoration: none;
+        }
+
+        ul {
+            list-style-type: disc;
+        }
+
+        li {
+            margin-bottom: 5px;
+        }
+
+        .highlight {
+            background-color: #ffff99;
+        }
+          .button {
+            background-color: #0077cc;
+            color: #fff;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+</style>
+    <title>{% block title %} {% endblock %}</title>
+    {% block css %}
+    {% endblock %}
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top" >
+        <div class="container-fluid" >
+          <a class="navbar-brand" href="#">ANIKET SURAJ TEJAS</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="/">Home</a>
+              </li>
+              &nbsp;&nbsp;&nbsp;
+              <li class="nav-item">
+                <a class="nav-link active" href="/admin_login/">Admin Login</a>
+              </li>
+              &nbsp;&nbsp;&nbsp;
+              <li class="nav-item">
+                <a class="nav-link active" href="/student_registration/">Register As Client</a>
+              </li>
+              &nbsp;&nbsp;&nbsp;
+              <li class="nav-item">
+                <a class="nav-link active" href="/student_login/">Client Login</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      {% block body %}
+      {% endblock %}
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+    {% block js %}
+    {% endblock %}
+  </body>
+</html>
