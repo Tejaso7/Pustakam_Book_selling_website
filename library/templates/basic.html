@@ -21,9 +21,6 @@
             padding: 10px;
             text-align: center;
         }
-        nav {
-         background-color:#C0C0C0;
-         }
 
         h1 {
             color: black;
@@ -57,15 +54,241 @@
             text-decoration: none;
             border-radius: 5px;
         }
+        hr {
+    border: none;
+    height: 10px; /* Adjust the line thickness */
+    background-color: #000; /* or your desired color */
+   /* Adds 20px top and bottom margin */
+        }
+    hr.gradient {
+    border: none;
+    height: 3px;
+    background: linear-gradient(to right, #000, #f00); /* Gradient from left (#f06) to right (#9f6) */
+         }
+         .logo {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+/* Reset some default styles */
+body, h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color:#EDEADE;
+}
+
+header {
+    background-color:#3498db;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+}
+
+.hero {
+    background-image: url('');
+    background-size: cover;
+    text-align: center;
+    color: #fff;
+    padding: 100px 0;
+}
+
+.hero h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.cta-button1 {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+.cta-button1:hover {
+    background-color: #0056b3;
+    color : #00FF00;
+}
+/* Styling for the image */
+
+.cta-button:hover {
+    background-color: #0056b3;
+     color : #00FF00;
+}
+
+.features {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 0;
+}
+
+.feature {
+    text-align: center;
+}
+
+.feature h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: #3498db;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+       {% load static %}
+
+.gas-pump {
+  background-image: url("{ % static 'background.jpg' % }");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-opacity:0.1;
+}
+
+.container {
+    margin-top: 50px;
+}
+
+.jumbotron {
+    background: url('gas_home.jpg') no-repeat center center;
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+    padding: 100px 0;
+    border-radius: 0;
+}
+
+.jumbotron h1 {
+    font-size: 48px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.jumbotron p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.btn-primary {
+    background-color: #007BFF;
+    border: none;
+    border-radius: 25px;
+    font-weight: 600;
+    padding: 12px 30px;
+    font-size: 18px;
+    transition: background-color 0.3s;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+
+/* Dynamic Data Styles */
+.dynamic-data {
+    background-color: ;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 30px;
+}
+
+.dynamic-data h2 {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.dynamic-data p {
+    font-size: 16px;
+}
+
+
+/* 3D-style headline */
+.s {
+            font-size: 48px;
+            font-family: 'Arial', sans-serif;
+            color:white;
+
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+
+        }
+
+        /* Animation keyframes */
+         @keyframes fadeInUp {
+            0% {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            100% {
+                opacity: 1;
+                transform: translateY(0);
+            }
+         }
+/* 3D-style headline */
+.t {
+            font-size: 48px;
+            font-family: 'Arial', sans-serif;
+            color: #3498db;
+            text-transform: uppercase;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+            animation: fadeInUp 1s ease-in-out;
+        }
+
+        /* Animation keyframes */
+         @keyframes fadeInUp {
+            0% {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            100% {
+                opacity: 1;
+                transform: translateY(0);
+            }
+         }
+
+
+
 </style>
     <title>{% block title %} {% endblock %}</title>
     {% block css %}
     {% endblock %}
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top" >
+  <hr class="gradient">
+    <nav class="navbar navbar-expand-lg navbar-light sticky-top logo" style="background-image: url({% static 'background2.jpg' %});" >
         <div class="container-fluid" >
-          <a class="navbar-brand" href="#">ANIKET SURAJ TEJAS</a>
+          <a class="navbar-brand" href="/">PUSTAKAM.COM</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -73,7 +296,7 @@
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="/">Home</a>
+                <a class="nav-link active" aria-current="page" href="/index/">Home</a>
               </li>
               &nbsp;&nbsp;&nbsp;
               <li class="nav-item">
@@ -91,10 +314,13 @@
           </div>
         </div>
       </nav>
+  <hr class="gradient">
       {% block body %}
       {% endblock %}
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
     {% block js %}
     {% endblock %}
+  <hr  class="gradient" >
+
   </body>
 </html>

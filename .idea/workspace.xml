@@ -4,11 +4,50 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bbf24393-9c4b-47e6-9f95-7f5725d6cc95" name="Changes" comment="" />
+    <list default="true" id="bbf24393-9c4b-47e6-9f95-7f5725d6cc95" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library/templates/home_demo.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LibraryManagementSystem/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LibraryManagementSystem/asgi.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LibraryManagementSystem/settings.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LibraryManagementSystem/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LibraryManagementSystem/wsgi.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/templates/add_book.html" beforeDir="false" afterPath="$PROJECT_DIR$/library/templates/add_book.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/templates/admin_login.html" beforeDir="false" afterPath="$PROJECT_DIR$/library/templates/admin_login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/templates/admin_navbar.html" beforeDir="false" afterPath="$PROJECT_DIR$/library/templates/admin_navbar.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/templates/basic.html" beforeDir="false" afterPath="$PROJECT_DIR$/library/templates/basic.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/templates/change_password.html" beforeDir="false" afterPath="$PROJECT_DIR$/library/templates/change_password.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/templates/edit_profile.html" beforeDir="false" afterPath="$PROJECT_DIR$/library/templates/edit_profile.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/library/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/templates/issue_book.html" beforeDir="false" afterPath="$PROJECT_DIR$/library/templates/issue_book.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/templates/profile.html" beforeDir="false" afterPath="$PROJECT_DIR$/library/templates/profile.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/templates/student_issued_books.html" beforeDir="false" afterPath="$PROJECT_DIR$/library/templates/student_issued_books.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/templates/student_login.html" beforeDir="false" afterPath="$PROJECT_DIR$/library/templates/student_login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/templates/student_navbar.html" beforeDir="false" afterPath="$PROJECT_DIR$/library/templates/student_navbar.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/templates/student_registration.html" beforeDir="false" afterPath="$PROJECT_DIR$/library/templates/student_registration.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/templates/view_books.html" beforeDir="false" afterPath="$PROJECT_DIR$/library/templates/view_books.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/templates/view_issued_book.html" beforeDir="false" afterPath="$PROJECT_DIR$/library/templates/view_issued_book.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/templates/view_students.html" beforeDir="false" afterPath="$PROJECT_DIR$/library/templates/view_students.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/library/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/library/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/manage.py" beforeDir="false" afterPath="$PROJECT_DIR$/manage.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="2W5NK7fDWIOvj1m88Zg09Bhj8Bq" />
   <component name="ProjectViewState">
@@ -17,8 +56,10 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/TS/Downloads/online-library-management-python-django"
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "C:/Users/TS/Downloads/Pustakam"
   }
 }]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />

@@ -10,6 +10,8 @@ from django.contrib.auth.decorators import login_required
 def index(request):
     return render(request, "index.html")
 
+def home(request):
+    return render(request, "home_demo.html")
 @login_required(login_url = '/admin_login')
 def add_book(request):
     if request.method == "POST":

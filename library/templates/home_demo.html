@@ -1,0 +1,57 @@
+{% extends 'basic.html' %}
+
+{% block title %}PUSTAKAM.COM{% endblock %}
+
+{% block body %}
+
+    <section class="hero" >
+        <h2 class="t" >Your Trusted Online Book's Selling Website</h2>
+        <h3 style=" text-shadow: 0 0 10px white;color:blue">Access legal services and <span style=" text-shadow: 0 0 10px white;color:red">Second Hand Book's </span> Selling & Buying.</h3>
+        <br>
+        <a class="cta-button" href = "{% url 'index' %}">Get Started</a>
+    </section>
+
+    <div class="dynamic-data">
+        <h2 class="t">Why Choose Us?</h2>
+        <p>We are committed to providing you with:</p>
+        <ul>
+            <li>Emphasize the vast range of second-hand books available on your platform.</li>
+            <li>Donates a portion of proceeds to literacy or educational initiatives, highlight this as a unique selling point.</li>
+            <li>Fast and  Quickly search for books, filter results, and list their own books for sale with minimal effort.</li>
+            <li>Users can reach out for help or assistance with any aspect of buying or selling books on your platform.</li>
+            <li>Buying and selling second-hand books promotes sustainability by reducing the demand for new book production.</li>
+            <li>Transparent policies, including return and refund policies, shipping information, and any guarantees you offer to buyers.</li>
+            <li>Provide customer support channels (email, chat, or a help center) to assist users with any issues or questions.</li>
+            <li>Sellers provide accurate descriptions of the book's condition, so buyers know exactly what they're purchasing.</li>
+            <li>Regularly update and patch your website to protect against security vulnerabilities.</li>
+            <li>Personalized wishlists, receive book recommendations, or tailor their browsing experience.</li>
+            <li>Platform conveniently on their smartphones and tablets.</li>
+            <li>Emphasize the environmental benefits of your platform.</li>
+            <li>24/7 Customer Support</li>
+        </ul>
+    </div>
+    <div class="dynamic-data">
+        <h2 class="t">Contact Us</h2>
+        <p>If you have any questions or need assistance, feel free to reach out:</p><br>
+        <p>Email:-<a mailto:pustakam@gmail.com >pustakam@gmail.com</a> </p>
+    </div>
+
+    <section class="features">
+        <div class="feature">
+            <h3 class="t" style="color:black">Book Condition Descriptions </h3>
+            <p style="color:blue"> Accurate descriptions of the book's condition provided by sellers, including notes on any wear or damage.  </p>
+        </div>
+        <div class="feature">
+            <h3 class="t" style="color:black">Seller Verification</h3>
+            <p style="color:blue">Verification of sellers to build trust among buyers and ensure they are dealing with reputable individuals.</p>
+        </div>
+        <div class="feature">
+            <h3 class="t" style="color:black">Wishlists and Recommendations</h3>
+            <p style="color:blue">A feature that enables users to create wishlists and receive book recommendations based on their interests.</p>
+        </div>
+     </section>
+     <footer>
+        <p>&copy; 2023 Pustakam. All rights reserved.</p>
+    </footer>
+     
+ {% endblock %}

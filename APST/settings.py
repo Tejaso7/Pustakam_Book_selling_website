@@ -39,7 +39,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'LibraryManagementSystem.urls'
+ROOT_URLCONF = 'APST.urls'
 
 TEMPLATES = [
     {
@@ -57,7 +57,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'LibraryManagementSystem.wsgi.application'
+WSGI_APPLICATION = 'APST.wsgi.application'
 
 
 # Database
