@@ -1,7 +1,7 @@
-# Pustakam_Book_selling_website(https://tejassawant07.pythonanywhere.com/)
+[# Pustakam_Book_selling_website](https://tejassawant07.pythonanywhere.com/)
 # Book Selling Website
-https://tejassawant07.pythonanywhere.com/
-[![Giphy](https://media.giphy.com/media/TyNiKSSbpMcoveJ75f/giphy.gif)]()
+
+[![Giphy](https://media.giphy.com/media/TyNiKSSbpMcoveJ75f/giphy.gif)]()<br>
 Welcome to the Book Selling Website project! This is a simple web application for selling and buying books online. Whether you're a book enthusiast looking for your next read or a seller wanting to list books for sale, this website provides a platform for book lovers.
 
 ## Features
