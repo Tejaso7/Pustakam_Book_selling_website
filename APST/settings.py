@@ -12,13 +12,10 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = '(*h%h-rc^kh_ob18is3j+c6@*3b92&9p^%s2lf^qas^lk3*n_q'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-<<<<<<< HEAD
+
 ALLOWED_HOSTS = ['TejasSawant07.pythonanywhere.com']
-=======
-ALLOWED_HOSTS = [*]
->>>>>>> 5c6840cc0ae0dd0944ae7c136d75f09dcd94725d
 
 
 # Application definition
