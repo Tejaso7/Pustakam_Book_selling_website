@@ -16,18 +16,7 @@ Welcome to the Book Selling Website project! This is a simple web application fo
 - Contact sellers to inquire about books or make a purchase.
 - Secure and user-friendly payment processing for buyers and sellers.
 
-## Getting Started
 
-To run this project locally, follow these steps:
-
-1. Clone the repository to your local machine:
-
-   ```bash
-   git clone https://github.com/Tejaso7/book-selling-website.git
-2.cd 
-npm install
-
-3. npm start
 
 Technologies Used
 HTML5, CSS3, JavaScript
@@ -56,32 +45,7 @@ Welcome to the Book Selling Website project! This is a simple web application fo
 - Contact sellers to inquire about books or make a purchase.
 - Secure and user-friendly payment processing for buyers and sellers.
 
-## Getting Started
-
-To run this project locally, follow these steps:
-
-1. Clone the repository to your local machine:
-
-   ```bash
-   git clone https://github.com/Tejaso7/book-selling-website.git
-Install the required dependencies:
-
-2.
-   ```bash
-   cd book-selling-website
-3.
-   ```bash
-   npm install
-
-Configure the database settings and environment variables as needed. You may use a local database or a cloud-based solution.
-
-Start the development server:
-
-4.
-   ```bash
-   npm start
-Open your web browser and visit http://localhost:3000 to access the website.
-
+ 
 5.Technologies Used
    HTML5, CSS3, JavaScript
    Node.js and Express.js for the server   
