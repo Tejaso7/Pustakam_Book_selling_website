@@ -7,6 +7,8 @@ Welcome to the Book Selling Website project! This is a simple web application fo
 
 ## Features
 
+as below
+
 - Browse a wide selection of books by category.
 - Search for books by title, author, or genre.
 - View detailed book information, including price, condition, and seller details.
